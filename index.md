@@ -7,7 +7,7 @@ JuliaRobotics is a collection of robotics-related packages that focus on robot c
 #### Arena.jl
 Collection of all 2D and 3D visualizations associated with the [Caesar.jl](http://www.github.com/dehann/Caesar.jl.git) and [RoME.jl](http://www.github.com/dehann/RoME.jl.git) robotic navigation packages.  
 [![Build Status](https://travis-ci.org/JuliaRobotics/Arena.jl.svg?branch=master)](https://travis-ci.org/dehann/Arena.jl)
-[![codecov.io](https://codecov.io/github/JuliaRobotics/Arena.jl/coverage.svg?branch=master)](https://codecov.io/github/dehann/Arena.jl?branch=master)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/Arena.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/Arena.jl?branch=master)
 [![docs](https://img.shields.io/badge/docs-latest-blue.svg)](http://dehann.github.io/Caesar.jl/latest/arena_visualizations.html)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/Arena.jl)  
 
@@ -20,8 +20,8 @@ This package is a ccall wrapper for the [AprilTags](https://april.eecs.umich.edu
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://juliarobotics.github.io/AprilTags.jl/)
 
 #### SensorFeatureTracking
-Algorithms to track features of interest, such as KLT. Please see [documentation](https://dehann.github.io/SensorFeatureTracking.jl/latest/), and file issues or make suggestions as you see fit.  
+Algorithms to track features of interest, such as KLT. Please see [documentation](https://JuliaRobotics.github.io/SensorFeatureTracking.jl/latest/), and file issues or make suggestions as you see fit.  
 **Note** Features in this package are not yet optimized for speed, but the start of implementing machine/computer vision sparse feature functions that are useful to robotics.  
 [![Build Status](https://travis-ci.org/JuliaRobotics/SensorFeatureTracking.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/SensorFeatureTracking.jl)
-[![codecov.io](https://codecov.io/github/JuliaRobotics/SensorFeatureTracking.jl/coverage.svg?branch=master)](https://codecov.io/github/dehann/SensorFeatureTracking.jl?branch=master)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/SensorFeatureTracking.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/SensorFeatureTracking.jl?branch=master)
 
