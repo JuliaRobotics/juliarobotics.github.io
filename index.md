@@ -8,11 +8,11 @@ JuliaRobotics is a collection of robotics-related packages that focus on robot c
 
 #### Arena.jl
 
-Collection of all 2D and 3D visualizations associated with the [Caesar.jl](http://www.github.com/dehann/Caesar.jl.git) and [RoME.jl](http://www.github.com/dehann/RoME.jl.git) robotic navigation packages.
+Collection of all 2D and 3D visualizations associated with the [Caesar.jl](https://www.github.com/dehann/Caesar.jl.git) and [RoME.jl](https://www.github.com/dehann/RoME.jl.git) robotic navigation packages.
 
-[![Build Status](https://travis-ci.org/JuliaRobotics/Arena.jl.svg?branch=master)](https://travis-ci.org/dehann/Arena.jl)
+[![Build Status](https://travis-ci.org/JuliaRobotics/Arena.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/Arena.jl)
 [![codecov.io](https://codecov.io/github/JuliaRobotics/Arena.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/Arena.jl?branch=master)
-[![docs](https://img.shields.io/badge/docs-latest-blue.svg)](http://dehann.github.io/Caesar.jl/latest/arena_visualizations.html)
+[![docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://dehann.github.io/Caesar.jl/latest/arena_visualizations.html)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/Arena.jl)
 
 #### MeshCatMechanisms.jl
@@ -20,7 +20,7 @@ Collection of all 2D and 3D visualizations associated with the [Caesar.jl](http:
 Adds support for visualizing mechanisms and robots from [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl/) with [MeshCat.jl](https://github.com/rdeits/MeshCat.jl). All geometries are constructed using [MechanismGeometries.jl](https://github.com/JuliaRobotics/MechanismGeometries.jl).
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/MeshCatMechanisms.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/MeshCatMechanisms.jl)
-[![codecov.io](http://codecov.io/github/JuliaRobotics/MeshCatMechanisms.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaRobotics/MeshCatMechanisms.jl?branch=master)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/MeshCatMechanisms.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/MeshCatMechanisms.jl?branch=master)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/MeshCatMechanisms.jl)
 
 #### MechanismGeometries.jl
@@ -28,7 +28,7 @@ Adds support for visualizing mechanisms and robots from [RigidBodyDynamics.jl](h
 Implements several methods of generating or loading geometries associated with a [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl/) `Mechanism` in Julia. It is currently used by [MeshCatMechanisms.jl](https://travis-ci.org/JuliaRobotics/MeshCatMechanisms.jl) but can also be used independently.
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/MechanismGeometries.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/MechanismGeometries.jl)
-[![codecov.io](http://codecov.io/github/JuliaRobotics/MechanismGeometries.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaRobotics/MechanismGeometries.jl?branch=master)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/MechanismGeometries.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/MechanismGeometries.jl?branch=master)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/MechanismGeometries.jl)
 
 ### Machine Vision
@@ -38,9 +38,9 @@ Implements several methods of generating or loading geometries associated with a
 This package is a ccall wrapper for the [AprilTags](https://april.eecs.umich.edu/software/apriltag.html) library tailored for Julia.
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/AprilTags.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/AprilTags.jl)
-[![codecov.io](http://codecov.io/github/JuliaRobotics/AprilTags.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaRobotics/AprilTags.jl?branch=master)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/AprilTags.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/AprilTags.jl?branch=master)
 [![docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://juliarobotics.github.io/AprilTags.jl/latest/)
-[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://juliarobotics.github.io/AprilTags.jl/)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/AprilTags.jl/)
 
 #### SensorFeatureTracking.jl
 
@@ -77,5 +77,5 @@ Simulation and visualization of articulated rigid body systems in Julia.
 Kinematic calibration for robots using motion capture data.
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/MotionCaptureJointCalibration.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/MotionCaptureJointCalibration.jl)
-[![codecov.io](http://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl?branch=master)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl?branch=master)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/MotionCaptureJointCalibration.jl)
