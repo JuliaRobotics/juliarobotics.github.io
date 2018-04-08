@@ -25,7 +25,7 @@ Adds support for visualizing mechanisms and robots from [RigidBodyDynamics.jl](h
 
 #### MechanismGeometries.jl
 
-Implements several methods of generating or loading geometries associated with a [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl/) `Mechanism` in Julia. It is currently used by [MeshCatMechanisms.jl](https://travis-ci.org/JuliaRobotics/MeshCatMechanisms.jl) but can also be used independently.
+Implements several methods of generating or loading geometries associated with a [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl/) `Mechanism` in Julia. It is currently used by [MeshCatMechanisms.jl](https://github.com/JuliaRobotics/MeshCatMechanisms.jl) but can also be used independently.
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/MechanismGeometries.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/MechanismGeometries.jl)
 [![codecov.io](https://codecov.io/github/JuliaRobotics/MechanismGeometries.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/MechanismGeometries.jl?branch=master)
