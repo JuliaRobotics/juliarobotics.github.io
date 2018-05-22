@@ -1,6 +1,5 @@
 title: [JuliaRobotics]
-description: >- # this means to ignore newlines until "baseurl:"
-  JuliaRobotics is an organization dedicated to building and promoting robotics tools in the Julia programming language.
+description: [Robotics powered by Julia]
 url: "http://www.juliarobotics.org"
 
 # Build settings
