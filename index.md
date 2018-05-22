@@ -1,3 +1,8 @@
+---
+layout: default
+title: JuliaRobotics
+---
+
 ## JuliaRobotics Mission Statement
 
 JuliaRobotics is a collection of robotics-related packages that focus on robot control, simulation, navigation, and visualization. JuliaRobotics intends to provide more visibility to robotics-related work within the Julia community. JuliaRobotics does not intend to replace other packages in the Julia ecosystem, but rather to improve the communication around combining the variety of open source packages available for robotics applications. JuliaRobotics intends to leverage the benefits of the Julia language. Lastly, JuliaRobotics has a code of conduct which encourages positive, constructive collaboration, and peer review to improve access and the quality of modern robotics technology.
