@@ -1,3 +1,18 @@
-theme: jekyll-theme-cayman
 title: [JuliaRobotics]
 description: [Robotics powered by Julia]
+url: "http://www.juliarobotics.org"
+
+# Build settings
+theme: jekyll-theme-cayman
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
