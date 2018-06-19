@@ -84,3 +84,38 @@ Kinematic calibration for robots using motion capture data.
 [![Build Status](https://travis-ci.org/JuliaRobotics/MotionCaptureJointCalibration.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/MotionCaptureJointCalibration.jl)
 [![codecov.io](https://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl?branch=master)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/MotionCaptureJointCalibration.jl)
+
+### SLAM and State-Estimation
+
+#### Caesar.jl
+
+An umbrella package for a Simultaneous Localization and Mapping toolkit that allows for non-Gaussian factor graph based SLAM.  This package relies heavily on RoME.jl, IncrementalInference.jl, KernelDensityEstimate.jl, and others.  Please see Arena.jl for visualization tools.
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/Caesar.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/Caesar.jl)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/Caesar.jl)
+
+#### RoME.jl
+
+Robot Motion Estimate package that implements many of the algebraic transforms, utilities, and tools for building local factor graph based SLAM systems. This package, together with IncrementalInference.jl, complete the algorithm known as multimodal iSAM (incremental smoothing and mapping).
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/RoME.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/RoME.jl)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/RoME.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/RoME.jl?branch=master)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/RoME.jl)
+
+### Inference / Optimization
+
+#### IncrementalInference.jl
+
+A nonparametric solution (posterior belief estimate) to the Bayes (Junction) tree refactoring of non-Gaussian factor graph (joint probability) inference problem.
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/IncrementalInference.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/IncrementalInference.jl)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/IncrementalInference.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/IncrementalInference.jl?branch=master)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/IncrementalInference.jl)
+
+#### KernelDensityEstimate.jl
+
+A Julia implementation of Nonparametric Belief Propagation (NBP) where (N x D) dimensional products of infinite functional objects are estimated through an efficient multiscale Gibbs sampling strategy.  See associated KernelDensityEstimatePlotting.jl for visualization tools.
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/KernelDensityEstimate.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/KernelDensityEstimate.jl)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/KernelDensityEstimate.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/KernelDensityEstimate.jl?branch=master)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/KernelDensityEstimate.jl)
