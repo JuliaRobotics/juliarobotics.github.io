@@ -92,8 +92,8 @@ Kinematic calibration for robots using motion capture data.
 An umbrella package for a Simultaneous Localization and Mapping toolkit that allows for non-Gaussian factor graph based SLAM.  This package relies heavily on RoME.jl, IncrementalInference.jl, KernelDensityEstimate.jl, and others.  Please see Arena.jl for visualization tools.
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/Caesar.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/Caesar.jl)
-[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/Caesar.jl)
 [![docs](https://img.shields.io/badge/docs-latest-blue.svg)](http://juliarobotics.github.io/Caesar.jl/latest/)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/Caesar.jl)
 
 #### RoME.jl
 
