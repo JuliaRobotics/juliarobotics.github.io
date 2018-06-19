@@ -13,7 +13,7 @@ JuliaRobotics is a collection of robotics-related packages that focus on robot c
 
 #### Arena.jl
 
-Collection of all 2D and 3D visualizations associated with the [Caesar.jl](https://www.github.com/dehann/Caesar.jl.git) and [RoME.jl](https://www.github.com/dehann/RoME.jl.git) robotic navigation packages.
+Collection of all 2D and 3D visualizations associated with the [Caesar.jl](https://www.github.com/JuliaRobotics/Caesar.jl.git) and [RoME.jl](https://www.github.com/JuliaRobotics/RoME.jl.git) robotic navigation packages.  This package also relies on [RoMEPlotting.jl](http://www.github.com/JuliaRobotics/RoMEPlotting.jl.git).
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/Arena.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/Arena.jl)
 [![codecov.io](https://codecov.io/github/JuliaRobotics/Arena.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/Arena.jl?branch=master)
@@ -93,6 +93,7 @@ An umbrella package for a Simultaneous Localization and Mapping toolkit that all
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/Caesar.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/Caesar.jl)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/Caesar.jl)
+[![docs](https://img.shields.io/badge/docs-latest-blue.svg)](http://juliarobotics.github.io/Caesar.jl/latest/)
 
 #### RoME.jl
 
