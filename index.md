@@ -13,7 +13,7 @@ JuliaRobotics is a collection of robotics-related packages that focus on robot c
 
 #### Arena.jl
 
-Collection of all 2D and 3D visualizations associated with the [Caesar.jl](https://www.github.com/dehann/Caesar.jl.git) and [RoME.jl](https://www.github.com/dehann/RoME.jl.git) robotic navigation packages.
+Collection of all 2D and 3D visualizations associated with the [Caesar.jl](https://www.github.com/JuliaRobotics/Caesar.jl.git) and [RoME.jl](https://www.github.com/JuliaRobotics/RoME.jl.git) robotic navigation packages.  This package also relies on [RoMEPlotting.jl](http://www.github.com/JuliaRobotics/RoMEPlotting.jl.git).
 
 [![Build Status](https://travis-ci.org/JuliaRobotics/Arena.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/Arena.jl)
 [![codecov.io](https://codecov.io/github/JuliaRobotics/Arena.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/Arena.jl?branch=master)
@@ -84,3 +84,39 @@ Kinematic calibration for robots using motion capture data.
 [![Build Status](https://travis-ci.org/JuliaRobotics/MotionCaptureJointCalibration.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/MotionCaptureJointCalibration.jl)
 [![codecov.io](https://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/MotionCaptureJointCalibration.jl?branch=master)
 [![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/MotionCaptureJointCalibration.jl)
+
+### SLAM and State-Estimation
+
+#### Caesar.jl
+
+An umbrella package for a Simultaneous Localization and Mapping toolkit that allows for non-Gaussian factor graph based SLAM.  This package relies heavily on RoME.jl, IncrementalInference.jl, KernelDensityEstimate.jl, and others.  Please see Arena.jl for visualization tools.
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/Caesar.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/Caesar.jl)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/Caesar.jl)
+[![docs](https://img.shields.io/badge/docs-latest-blue.svg)](http://juliarobotics.github.io/Caesar.jl/latest/)
+
+#### RoME.jl
+
+Robot Motion Estimate package that implements many of the algebraic transforms, utilities, and tools for building local factor graph based SLAM systems. This package, together with IncrementalInference.jl, complete the algorithm known as multimodal iSAM (incremental smoothing and mapping).
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/RoME.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/RoME.jl)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/RoME.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/RoME.jl?branch=master)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/RoME.jl)
+
+### Inference / Optimization
+
+#### IncrementalInference.jl
+
+A nonparametric solution (posterior belief estimate) to the Bayes (Junction) tree refactoring of non-Gaussian factor graph (joint probability) inference problem.
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/IncrementalInference.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/IncrementalInference.jl)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/IncrementalInference.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/IncrementalInference.jl?branch=master)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/IncrementalInference.jl)
+
+#### KernelDensityEstimate.jl
+
+A Julia implementation of Nonparametric Belief Propagation (NBP) where (N x D) dimensional products of infinite functional objects are estimated through an efficient multiscale Gibbs sampling strategy.  See associated KernelDensityEstimatePlotting.jl for visualization tools.
+
+[![Build Status](https://travis-ci.org/JuliaRobotics/KernelDensityEstimate.jl.svg?branch=master)](https://travis-ci.org/JuliaRobotics/KernelDensityEstimate.jl)
+[![codecov.io](https://codecov.io/github/JuliaRobotics/KernelDensityEstimate.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaRobotics/KernelDensityEstimate.jl?branch=master)
+[![source](https://img.shields.io/badge/source-code-yellow.svg)](https://github.com/JuliaRobotics/KernelDensityEstimate.jl)
